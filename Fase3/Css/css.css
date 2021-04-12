@@ -3,13 +3,24 @@ header{
 }
 nav{
     background: aqua;
+    color:black;
 }
 section{
-    background: aquamarine;
+    float: left;
+    background-color: white;
+    
 }
 aside{
+    float: left;
     background-color: yellow;
 }
 footer{
+    
     background-color :violet ;
+    color :white;
+}
+.contenedor::after{
+    content: "";
+    display: block;
+    clear: both;
 }
