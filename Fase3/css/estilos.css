@@ -1,6 +1,4 @@
 
-
-
 body{ 
     font-family: Poppins, Serif; 
 } 
@@ -67,6 +65,12 @@ padding:0px 150px;
 
 height: 350px;
 }
+
+.index-imagen3{ 
+  float:right;
+ width: 100%;
+ 
+ }
 .fotoestudiant{ 
  float:right;
 width: 20%;
@@ -98,6 +102,12 @@ margin-left: 15px;
 .lis-subtema:hover{ 
   background-color: #FCF3CF; 
 } 
+.titulot{ 
+  color: black;
+  background-color:white
+  
+} 
+
 
  .lis-subtema a{ 
    text-decoration: none; 
@@ -113,19 +123,28 @@ padding:15px 0;
  text-align: justify;
  font-style: italic; 
 } 
+.normasapat
+{ 
+ text-align: justify;
+ font-style: italic; 
+ width: 90%;
+} 
 .parrafo
 { 
  text-align: justify; 
+} 
+.parrafot
+{ 
+ text-align: justify; 
+ float:left;
+ width: 90%;
 } 
 main{ 
   display: flex; 
 } 
 
-
-
 header {
  background-color: white;
-
  
 }
 nav{
